@@ -22,5 +22,7 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
+    - name: Mocha
+      run: npm i -g mocha
     - name: Run Integration Tests
       run: npm test
